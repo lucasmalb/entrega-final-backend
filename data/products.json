@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "title": "Pelotas De Futsal Goalty Speed Numero 4 Blanca",
+        "description": "Balon cocido a mano. Esta compuesto de 32 paneles. Medio pique. Tamaño: Nº4. IMPORTANTE: El balón debe ser inflado con la presión que indica en el panel cercano a la válvula.",
+        "category": "Goalty Speed",
+        "status": true,
+        "price": 43.000,
+        "code": "530040ALFSPE4CP",
+        "stock": 60,
+        "thumbnails": [
+            "1.webp"
+        ],
+        "owner": "admin",
+        "__v": 0
+    },
+    {
+        "id": 2,
+        "title": "Pelota Voley Nassau Attack VA5 Celeste",
+        "description": "Este balón de voley es ideal para tu momento de recreación entre amigos Tamaño: N°5. IMPORTANTE: El balón debe ser inflado con la presión que indica en el panel cercano a la válvula.",
+        "category": "Nassau",
+        "status": true,
+        "price": 32.000,
+        "code": "530040000050006",
+        "stock": 50,
+        "thumbnails": [
+            "2.webp"
+        ],
+        "owner": "admin",
+        "__v": 0
+    },
+    {
+        "id": 3,
+        "title": "Pelota De Voley Erima Pu Soft Roja",
+        "description": "Lucite en la cancha con la nueva pelota de Voley ERIMA. IMPORTANTE: El balón debe ser inflado con la presión que indica en el panel cercano a la válvula.",
+        "category": "Erima",
+        "status": true,
+        "price": 54.895,
+        "code": "1210400V9000001",
+        "stock": 30,
+        "thumbnails": [
+            "3.webp"
+        ],
+        "owner": "admin",
+        "__v": 0
+    },
+    {
+        "id": 4,
+        "title": "Pelota De Voley Classic 1.0 Blanca",
+        "description": "Un modelo inspirado en quienes están iniciándose y practicando los primeros movimientos técnicos del volley. IMPORTANTE: El balón debe ser inflado con la presión que indica en el panel cercano a la válvula",
+        "category": "Dribbling",
+        "status": true,
+        "price": 11.990,
+        "code": " 241040002436001",
+        "stock": 85,
+        "thumbnails": [
+            "4.webp"
+        ],
+        "owner": "admin",
+        "__v": 0
+    },
+    {
+        "id": 5,
+        "title": "Pelota De Voley KRV Numero 5 Blanca ",
+        "description": "La Pelota Fútbol Adidas Argentina 22 Com Unisex es la elección perfecta para los fanáticos de este deporte. Con un diseño icónico inspirado en la selección argentina, esta pelota te ofrece un rendimiento excepcional en el campo. Su construcción duradera y resistente al desgaste garantiza una gran durabilidad, mientras que su diseño de paneles cosidos a máquina proporciona un vuelo preciso y una sensación suave al golpearla. Dominá el juego con tu talento y esta pelota.",
+        "category": "KRVsport",
+        "status": true,
+        "price": 20.790,
+        "code": "120040033046001",
+        "stock": 96,
+        "thumbnails": [
+            "5.webp"
+        ],
+        "owner": "admin",
+        "__v": 0
+    },
+    {
+        "id": 6,
+        "title": "Pelota De Futsal Puma 3 MS Numero 4 Roja",
+        "description": "Encontrá en esta pelota la calidad e innovación que PUMA puede brindar. Disfruta de tus momentos de entrenamiento y juego, así como de dispersión, con una pelota que es ideal para vos. Medio pique. Tamaño: Nº4. IMPORTANTE: El balón debe ser inflado con la presión que indica en el panel cercano a la válvula.",
+        "category": "Puma",
+        "status": true,
+        "price": 38.999,
+        "code": "640040083765003",
+        "stock": 46,
+        "thumbnails": [
+            "6.webp"
+        ],
+        "owner": "admin",
+        "__v": 0
+    },
+    {
+        "id": 7,
+        "title": "Pelota Fubol Nasssu Pampa N°5 Blanca",
+        "description": "Lucite en partidos y entrenamientos de futbol con el balón Pampa de NASSAU. Tamaño: N°5. IMPORTANTEEl balón debe ser inflado con la presión que indica en el panel cercano a la válvula.",
+        "category": "Nassau",
+        "status": true,
+        "price": 49.000,
+        "code": "530040020502001",
+        "stock": 43,
+        "thumbnails": [
+            "7.webp"
+        ],
+        "owner": "admin",
+        "__v": 0
+    },
+    {
+        "id": 8,
+        "title": "Pelota De Rugby Flash Test Numero 5 Blanca",
+        "description": "La pelota Test es ideal para los partidos de Rugby más arduos Tamaño: N5. IMPORTANTE: El balón debe ser inflado con la presión que indica en el panel cercano a la válvula.",
+        "category": "Flash Test",
+        "status": true,
+        "price": 58.500,
+        "code": "27004000PMARI22",
+        "stock": 66,
+        "thumbnails": [
+            "8.webp"
+        ],
+        "owner": "admin",
+        "__v": 0
+    },
+    {
+        "id": 9,
+        "title": "Pelota De Basquet Numero 7 Marron",
+        "description": "Iniciate en el mundo del básquet con esta nueva pelota de peso y tamaño oficial. Tamaño: N°7. IMPORTANTE: El balón debe ser inflado con la presión que indica en el panel cercano a la válvula.",
+        "category": "BASKETBALL",
+        "status": true,
+        "price": 37.405,
+        "code": " 12104000339N001",
+        "stock": 40,
+        "thumbnails": [
+            "9.webp"
+        ],
+        "owner": "admin",
+        "__v": 0
+    },
+    {
+        "id": 10,
+        "title": "Pelota De All Black Gilbert Surf Numero 5 Negra",
+        "description": "Creada para un fútbol fluido. Reflejando la belleza natural de Australia y Nueva Zelanda, los dibujos de esta pelota adidas Oceaunz pro sala toman inspiración de la pelota oficial de la Copa Mundial Femenina de la FIFA™. Hecha para los partidos de futsal, esta pelota sin costuras tiene una cámara de butilo para un juego lleno de habilidad. El sello FIFA Quality Pro asegura que puedas jugar con confianza cada vez que pisas la cancha.",
+        "category": "Gilbert Surf",
+        "status": true,
+        "price": 55.000,
+        "code": "340040391462001",
+        "stock": 38,
+        "thumbnails": [
+            "10.webp"
+        ],
+        "owner": "admin",
+        "__v": 0
+    }
+]

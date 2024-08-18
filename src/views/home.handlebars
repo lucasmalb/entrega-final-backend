@@ -1,0 +1,33 @@
+<div class="container mx-auto px-4">
+  <div class="my-2 text-center border-2 text-uppercase">
+    <h1 style="color:white">Bienvenido</h1>
+  </div>
+
+  <section class="hero">
+    <div style="padding: 50px 0;">
+      <p class="text-center" style="margin: 0 0 4rem 0 !important;">Explora nuestra colección y encuentra lo último en moda urbana.</p>
+      <a href="/products" class="btn btn-effect btn-dark btn-jif bg-black zoomy">Ver colección</a>
+    </div>
+  </section>
+
+  <section class="featured-products">
+    <h2 class="text-center" style="color: white;">Productos Destacados</h2>
+    {{#if products}}
+      <div class="">
+        {{#each products}}
+          <div class="product">
+            <img src="img/products/{{thumbnails}}" alt="Comprar {{title}}" />
+            <h3>{{title}}</h3>
+            <p>${{price}}</p>
+            <a style="padding: 1% 20%" href="/products/item/{{_id}}" class="btn button-black mt-2">Comprar</a>
+          </div>
+        {{/each}}
+      </div>
+    {{else}}
+      <h1 class="text-center mt-12 text-lg">No hay productos</h1>
+    {{/if}}
+  </section>
+</div>
+
+<!-- Scripts necesarios -->
+<script src="https://kit.fontawesome.com/4e9044019f.js" crossorigin="anonymous"></script>
