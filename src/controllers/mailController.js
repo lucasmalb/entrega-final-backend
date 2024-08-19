@@ -17,7 +17,7 @@ export const mailController = async (req, res) => {
     subject: "Correo de prueba",
     html: `
         <div>
-            <h1>Este es un testeo del servicio de email de JIF Style Store</h1>
+            <h1>Este es un testeo del servicio de email de sport plus</h1>
         </div>
         `,
     attachments: [],

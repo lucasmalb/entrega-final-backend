@@ -38,15 +38,15 @@ router.post("/register", async (req, res, next) => {
     });
 
     const mailOptions = {
-      from: `JIF Style Store <${config.EMAIL_USER}>`,
+      from: `sport plus <${config.EMAIL_USER}>`,
       to: user.email,
-      subject: "Bienvenido a JIF Style Store",
+      subject: "Bienvenido a sport plus",
       html: `
         <div>
           <p>Hola ${user.first_name},</p>
-          <p>Gracias por registrarte en JIF Style Store. Estamos encantados de tenerte con nosotros.</p>
+          <p>Gracias por registrarte en sport plus. Estamos encantados de tenerte con nosotros.</p>
           <p>Si tienes alguna pregunta, no dudes en ponerte en contacto con nosotros.</p>
-          <p>Saludos,<br>El equipo de JIF Style Store</p>
+          <p>Saludos,<br>El equipo de sport plus</p>
         </div>
       `,
     };

@@ -28,17 +28,17 @@
     <input type="hidden" id="userCartID" value="{{ user.cart._id }}">
 
     <div class="product-info">
-      <h2>{{product.title}}</h2>
+      <h2 style="color: white;">{{product.title}}</h2>
       <div class="price-box">
-        <span class="pricebox-price">$ {{product.price}}</span>
+        <span class="pricebox-price" >$ {{product.price}}</span>
       </div>
       <hr>
-      <p class="descripcion">{{product.description}}</p>
+      <p class="descripcion"">{{product.description}}</p>
       <br>
-      <p>ID de producto: {{product._id}}</p>
-      <p>Stock disponible: {{product.stock}}</p>
-      <p>Categoría: {{product.category}}</p>
-      <p>Código: {{product.code}}</p>
+      <p style="color: white;">ID de producto: {{product._id}}</p>
+      <p style="color: white;">Stock disponible: {{product.stock}}</p>
+      <p style="color: white;">Categoría: {{product.category}}</p>
+      <p style="color: white;">Código: {{product.code}}</p>
       <hr>
       <div class="text-center zoomy">
         <button class="btn btn-effect btn-dark btn-jif bg-black btn-detalles mt-2 mx-4" id="addToCartBtn" data-product-id="{{product._id}}">Agregar al carrito</button>

@@ -59,7 +59,7 @@ const getTransport = () => {
 const sendEmail = async (transport, email, message) => {
   try {
     await transport.sendMail({
-      from: `JIF Style Store <${config.EMAIL_USER}>`,
+      from: `sport plus <${config.EMAIL_USER}>`,
       to: email,
       subject: "AVISO - Eliminación de cuenta",
       text: message,

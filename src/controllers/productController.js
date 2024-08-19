@@ -197,7 +197,7 @@ export const deleteProduct = async (req, res) => {
         });
 
         await transporter.sendMail({
-          from: `JIF Style Store: <${config.EMAIL_USER}>`,
+          from: `sport plus: <${config.EMAIL_USER}>`,
           to: productOwner.email,
           subject: "Confirmación de eliminación de producto",
           text: `Hola ${productOwner.first_name} ${productOwner.last_name}, te informamos que el producto "${product.title}" con ID: ${product._id} ha sido eliminado.`,

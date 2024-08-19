@@ -57,7 +57,7 @@ export const resetPassword = async (req, res, next) => {
 
     try {
       let result = await transport.sendMail({
-        from: `JIF Style Store - Recuperación de Contraseña <${config.EMAIL_USER}>`,
+        from: `sport plus - Recuperación de Contraseña <${config.EMAIL_USER}>`,
         to: email,
         subject: "Recupera tu Contraseña",
         html: `

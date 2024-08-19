@@ -65,7 +65,7 @@ export const renderHome = async (req, res) => {
     const totalQuantityInCart = req.user && req.user.cart ? await cartService.getTotalQuantityInCart(req.user.cart._id) : 0;
 
     res.render("home", {
-      title: "JIF STYLE STORE - Home",
+      title: "sport plus - Home",
       style: "styles.css",
       products: products.docs,
       user: req.user,
@@ -80,7 +80,7 @@ export const renderHome = async (req, res) => {
 export const renderLogin = (req, res) => {
   req.logger.info("renderLogin: Solicitud recibida.");
   res.render("login", {
-    title: "JIF STYLE STORE - Login",
+    title: "sport plus - Login",
     style: "styles.css",
     message: "",
   });
@@ -90,7 +90,7 @@ export const renderLogin = (req, res) => {
 export const renderRegister = (req, res) => {
   req.logger.info("renderRegister: Solicitud recibida.");
   res.render("register", {
-    title: "JIF STYLE STORE - Registro",
+    title: "sport plus - Registro",
     style: "styles.css",
     message: "",
   });
@@ -134,7 +134,7 @@ export const getProducts = async (req, res) => {
     const totalQuantityInCart = req.user && req.user.cart ? await cartService.getTotalQuantityInCart(req.user.cart._id) : 0;
 
     const response = {
-      title: "JIF STYLE STORE - Productos",
+      title: "sport plus - Productos",
       style: "styles.css",
       payload: products.docs,
       totalPages: products.totalPages,
@@ -159,7 +159,7 @@ export const renderRealTimeProducts = async (req, res) => {
   const totalQuantityInCart = req.user && req.user.cart ? await cartService.getTotalQuantityInCart(req.user.cart._id) : 0;
 
   res.render("realTimeProducts", {
-    title: "JIF STYLE STORE - Gestión de productos",
+    title: "sport plus - Gestión de productos",
     products: productService.getAllProducts,
     style: "styles.css",
     user: req.user,
@@ -170,7 +170,7 @@ export const renderRealTimeProducts = async (req, res) => {
 export const renderChat = async (req, res) => {
   const totalQuantityInCart = req.user && req.user.cart ? await cartService.getTotalQuantityInCart(req.user.cart._id) : 0;
   res.render("chat", {
-    title: "JIF STYLE STORE - Chat",
+    title: "sport plus - Chat",
     style: "styles.css",
     user: req.user,
     totalQuantityInCart,
@@ -190,7 +190,7 @@ export const renderCart = async (req, res) => {
     const cantidadencart = await cartService.getTotalQuantityInCart(cart._id);
 
     res.render("cart", {
-      title: "JIF STYLE STORE - Carrito",
+      title: "sport plus - Carrito",
       style: "styles.css",
       payload: cart.products,
       user: req.user,
@@ -213,7 +213,7 @@ export const renderProductDetails = async (req, res) => {
     }
     const totalQuantityInCart = req.user && req.user.cart ? await cartService.getTotalQuantityInCart(req.user.cart._id) : 0;
     res.render("product-details", {
-      title: "JIF STYLE STORE - Detalles del Producto",
+      title: "sport plus - Detalles del Producto",
       style: "styles.css",
       product: product,
       user: req.user,
@@ -290,7 +290,7 @@ export const purchaseView = async (req, res) => {
 
       return res.render("purchase", {
         status: "success",
-        title: "JIF STYLE STORE - Comprar",
+        title: "sport plus - Comprar",
         style: "styles.css",
         payload: purchaseData,
         processedAmount,
@@ -302,7 +302,7 @@ export const purchaseView = async (req, res) => {
 
     return res.render("purchase", {
       status: "error",
-      title: "JIF STYLE STORE - Comprar",
+      title: "sport plus - Comprar",
       style: "styles.css",
       processedAmount,
       notProcessedAmount,
@@ -320,11 +320,11 @@ export const purchaseView = async (req, res) => {
 };
 
 export const resetPasswordView = (req, res) => {
-  res.render("resetPassword", { style: "styles.css", title: "JIF STYLE STORE - Restablecer contraseña" });
+  res.render("resetPassword", { style: "styles.css", title: "sport plus - Restablecer contraseña" });
 };
 
 export const newPasswordView = (req, res) => {
-  res.render("newPassword", { style: "styles.css", title: "JIF STYLE STORE - Nueva contraseña" });
+  res.render("newPassword", { style: "styles.css", title: "sport plus - Nueva contraseña" });
 };
 
 export const profileView = async (req, res) => {
@@ -336,7 +336,7 @@ export const profileView = async (req, res) => {
     res.render("profile", {
       user,
       cartId,
-      title: "JIF STYLE STORE - Mi Perfil",
+      title: "sport plus - Mi Perfil",
       style: "styles.css",
       documentsJson,
       totalQuantityInCart: await cartService.getTotalQuantityInCart(req.user.cart._id),
@@ -356,7 +356,7 @@ export const adminPanel = async (req, res) => {
     user,
     users,
     userId,
-    title: "JIF STYLE STORE - Panel de administrador",
+    title: "sport plus - Panel de administrador",
     style: "styles.css",
   });
 };
